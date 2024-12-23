@@ -1,0 +1,116 @@
+<!-- 
+Template for IMA's Creative Coding Lab 
+
+Project A: Generative Creatures
+CCLaboratories Biodiversity Atlas 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>[ Petri Princess ]</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- P5 library downloaded from https://p5js.org/download/: -->
+    <!-- <script src="js/p5.js"></script> -->
+    <script src="js/sketch.js"></script>
+    
+    <!-- Alternatively it can be included directly from the web: -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.11.0/lib/p5.min.js"></script> -->
+</head>
+<style>
+    body {
+        background-color: rgb(156, 232, 125);
+        margin: 0;
+    }
+</style>
+<body>
+    <!-- title -->
+    <div id="title-wrapper">
+        <h1 class="headline black">[ Petri Princess ]</h1>
+    </div>
+
+    <!-- main content -->
+    <div id="main-wrapper">
+        <div id="p5-canvas-container">
+            <!-- This is where your p5 sketch will be appended and appear! -->
+        </div>
+        <div class="two-columns">
+            <div class="left">
+                <h3 class="red">Scientific Name:</h3>
+                <p>Petri Princess</p>
+
+                <h3 class="red">Discovered by / at:</h3>
+                <p>Lyndaura, 2044</p>
+
+                <h3 class="green">Family:</h3>
+                <p>Back in the days of 2044 when shrimp could cry, there existed a regular old laboratory that existed in the confines of our simple world. This laboratory specialized in preserving bacteria for future study, for who could tell when a unique strain might vanish, leaving humanity without its bacteria goodness? Each bacterium was meticulously cultivated, protected, and preserved for a day it might be needed.
+                    But as per usual, fate had other plans. One fateful day, from the depths of the ocean, a giant octopus, born on an undersea internet powerline, plunged out of the waves and took flight toward the sun. Driven by its fear of the dark, it soared until it was close enough to feel the sun’s scorching heat. As iit had found its final moment, the octopus exploded, melting nuclear infested ink into the sky, and back into the earth.
+                    The inky rain fell upon the lab, seeping into every crevice and infiltrating the floors. As the ground cracked and shifted, the ink merged with the bacteria stored within. They combined into something altogether new, seeping into a poor unsuspecting petri dish lying amid the chaos. A strange fusion took place as bacteria and ink bound together, forming a weird creature unlike any seen before. And so, a living petri dish was born, a petri dish alive and well, lying motionless in the inky, her moldy insides slowly began to form an intricate nervous system.
+                    For years, it lay dormant there. The earliest sensations were a jumbled mess of memories from that chaotic fusion. It was a lonely existence, no light, no sound, only a faint electric hum of the nuclear ink around her. Here, she was haunted by strange, half formed thoughts, memories of the octopus’s ascent, and the feeling of empty vastness. Soon her mold would twitch involuntarily, reaching for some sorta future ahead.
+                    After what seemed like an eternity, the petri dish began to transform. The mold within it spread, forming a nervous system, and suddenly sensed a spark of movement. Petri spent days mustering the strength, swaying side to side, trying to comprehend the situation. Then, one day, she raised a single shaky leg and stood. Wobbly and unsure, she stumbled forward. Every step carried her farther from the generic lab, and each tremble a reminder of her isolated origins.
+                    On and on she walked, floppings and slipping until a wandering scientist suddenly walked past it. His name was Dr. Proffeserina Scientina Jr., his heart nearly stopped at the sight.
+                    “OH MY SHRIMPS!” he gasped, his eyeballs practically popping out of his head. “Finally, I’ve found it, a living, walking petri dish! You certainly can’t find this on the depths of ebay. The myth is real!” Overcome with joy, he did a ballerina-like backflip, shouting a scream of, “Cowabunga!”
+                    “You shall be my successor!” he cried with delight. “I name you… Princess Petri Jr.!”
+                    The petri dish wobbled, as a result she formed an excited front flip managing to shake off her initial hesitance. Dr. Scientina watched, marveling at the creature’s movements.  Princess Petri was no ordinary petri dish, she was a jr. 
+                    As Dr. Scientina brought her back to his evil cyber-scientific lair, he then studied the dish. Whenever he clicked r she, “reset,” Princess Petri would let out a mournful, watery cry. The sensation of being reset awakened memories of her early, lonely days in the dark, stirring feelings of sadness and terror. If moved around too suddenly, she’d flail and kick, waving her arms in frustration,  trying to say, “Please, don’t bring me to the ruins of the lab.” It was her way of resisting reminders of the chaotic fusion that had brought her to life, the rhythm wasn’t just her way of moving; it was a part of her very essence, the pull she felt from her moldy roots, the instinct to reach toward something more, just as she had done back in the catastrophe lab.
+                    And so, Princess Petri ventured into her new life on the throne, wobbling, crying, and kicking with every step. Indeed the shrimp cried.
+                    </p>
+            </div>
+            <div class="right">
+                <h3 class="green">Habitat:</h3>
+                <p>Lab</p>
+
+                <h3 class="green">Appearance:</h3>
+                <p>Princess Petri dish shimmers in soft blues, yellows, and pinks.  She's got this one of a kind glow swirling in her round, glassy frame. A tiny golden crown sits on her luscious baldness, reinforcing her royal status. Her big, curious eyes follow you, and when she’s rattled they iconically transform into X’s. One could only wish to look so disturbed. Her delicate wobbly arms and legs sway gracefully with madness. When she cries her tears roll so melancholy down her face, it's serving emotionally troubled couture, so high fashion.</p>
+
+                <h3 class="green">Key Characteristics:</h3>
+                <ul>
+                    <li>Cries when reset</li>
+                    <li>kicks and waves its arms when moved</li>
+                    <li>Very wobbly and bendy</li>
+                    <li>Rocks a cute crown</li>
+                </ul>
+            </div>
+        </div>
+        <div class="one-column">
+            <p>
+                <<h3 class="blue">Currently:</h3>
+                    Princess Petri is a unique, sentient mold colony that fused with a Petri dish after being exposed to nuclear squid ink. 
+                    The mold uses the dish as a vessel, shifting and pulsating with vibrant, intricate patterns,
+                     each movement reflecting its complex emotions.
+                      While Princess Petri holds vast knowledge from the microbial world, an archive of biological processes and environmental history, it struggles with anxiety. Despite its intelligence, it feels trapped in its fragile, limited form, unable to truly interact with the world beyond the glass. The Dr.Scientina observes Princess Petri growing increasingly distressed, its patterns becoming chaotic and erratic, as if spiraling into nihilistic fear. It seems aware of its limitations and powerless existence, burdened by an understanding of life that it cannot fully experience or change.
+                <br>
+                <h3 class="purple">Guidelines:</h3>>Guidelines for human interaction with this creature</span> This text can double as
+                fictional part of your story, but could also include instructional aspects on how to interact with your
+                sketch above.
+            </p> 1. Bacteria Besties:
+            On the left, you’ll see a lineup of colorful bacteria squares, each one is a unique strain waiting to grow on Princess Petri. Move your wrinkly finger on a square to select it, and it’ll select it. This is how you “pick” which bacteria you want to place inside the dish.
+            
+            2. Painting with Mold:
+            Once you’ve chosen a bacteria, click within Princess Petri’s circle. Your chosen bacteria will bloom into vibrant, unique colonies. Watch as they grow and interact in surprising ways. Try different bacteria to see all the creative shapes and movements they bring.
+            
+            3. Moving Princess Petri:
+            Press the ‘M’ key to put Princess Petri into “motion mode”. Now, hold and drag to move her around the lab. She loves to strut, but remember, she’s a little wobbly, don't kill her, that's illegal in many places.
+            
+            4.Emotional:
+            Princess Petri can get sentimental. Hit ‘R’ to reset, and she might shed a few blue teardrops down her face. But don’t worry her tears will disappear, and she’ll be back to normal in no time. Petri pain is temporary. </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="black">
+        <p>A CCLab project made by Lyndaura in Fall Semester 2024</p>
+    </div>
+
+    <!-- Home: Link back to the ATLAS page-->
+    <div id="home">
+        <a href="https://cclab.work/atlas">Back to the ATLAS</a>
+    </div>
+
+    <!-- Include your sketch.js file here -->
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.11.0/lib/p5.min.js"></script>
